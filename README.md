@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Crowdsec is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/crowdsec
+CrowdSec provides curated threat intelligence and a collaborative security platform that leverages community‑driven data to block malicious IPs, detect attacks, and automate response. Their solutions include open‑source agents, a SaaS console, and integrations for developers and enterprises, aiming to reduce the time to block threats from days to minutes. The company emphasizes AI‑driven analytics, open‑source contributions, and a marketplace of security tools.
+
+**Areas:** Security · Threat Intelligence · Open Source · Community · Automation · CrowdSec
+
+## Crowdsec on APIs.io
+
+Everything profiled for Crowdsec is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crowdsec/](https://apis.io/providers/crowdsec/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [CrowdSec Service API](https://apis.io/apis/crowdsec/crowdsec-service-api/) — This is the API to manage CrowdSec services
+- [Crowdsec Allow Lists API](https://apis.io/apis/crowdsec/crowdsec-allow-lists-api/) — The Allow Lists API from Crowdsec — 6 operation(s) for allow lists.
+- [Crowdsec Blocklists API](https://apis.io/apis/crowdsec/crowdsec-blocklists-api/) — The Blocklists API from Crowdsec — 12 operation(s) for blocklists.
+- [Crowdsec CVEs API](https://apis.io/apis/crowdsec/crowdsec-cves-api/) — The CVEs API from Crowdsec — 4 operation(s) for cves.
+- [Crowdsec Hub API](https://apis.io/apis/crowdsec/crowdsec-hub-api/) — The Hub API from Crowdsec — 2 operation(s) for hub.
+- [Crowdsec Info API](https://apis.io/apis/crowdsec/crowdsec-info-api/) — The Info API from Crowdsec — 51 operation(s) for info.
+- [Crowdsec Integrations API](https://apis.io/apis/crowdsec/crowdsec-integrations-api/) — The Integrations API from Crowdsec — 9 operation(s) for integrations.
+- [Crowdsec Metrics API](https://apis.io/apis/crowdsec/crowdsec-metrics-api/) — The Metrics API from Crowdsec — 1 operation(s) for metrics.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Crowdsec Webhooks](https://apis.io/asyncapis/crowdsec/crowdsec-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Crowdsec Agentic Access](https://apis.io/agentic-access/crowdsec/crowdsec-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Crowdsec Openapi Overlay](https://apis.io/overlays/crowdsec/crowdsec-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Crowdsec API Rules](https://apis.io/rules/crowdsec/crowdsec-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Crowdsec Authentication](https://apis.io/security/crowdsec/crowdsec-authentication/)
+- [Crowdsec Domain Security](https://apis.io/security/crowdsec/crowdsec-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Crowdsec Plans Pricing](https://apis.io/plans/crowdsec/crowdsec-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.crowdsec.net)
+- [Documentation](https://doc.crowdsec.net/)
+- [Getting started](https://docs.crowdsec.net/docs/next/appsec/quickstart/envoy-gateway)
+- [Pricing](https://www.crowdsec.net/pricing)
+- [Support](https://support.crowdsec.net/hc/en-gb)
+- [Blog](https://www.crowdsec.net/blog)
+
+## API Evangelist rating
+
+**Kin Score 41.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 55.3 |
+
+**Agent readiness 25.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/crowdsec/](https://apis.io/providers/crowdsec/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crowdsec: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crowdsec/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
